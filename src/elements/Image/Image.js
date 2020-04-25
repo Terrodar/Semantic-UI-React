@@ -103,7 +103,7 @@ function Image(props) {
     <ElementType {...rootProps} className={classes} href={href}>
       {Dimmer.create(dimmer, { autoGenerateKey: false })}
       {Label.create(label, { autoGenerateKey: false })}
-      <img {...imgTagProps} />
+      <img {...imgTagProps} alt="hola amigos"/>
     </ElementType>
   )
 }
